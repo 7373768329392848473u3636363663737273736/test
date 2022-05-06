@@ -7,10 +7,10 @@ from time import sleep
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from zahid import bootstrapxxat
+    from nx2 import readline___Public_Xml
     print("\n Congratulations! Your device supported!\n")
     time.sleep(3)
-    bootstrapxxat()
+    readline___Public_Xml()
 elif bit == '32bit':
     from f32 import bootstrapxxat
     print("\n Congratulations! Your device supported!\n")
